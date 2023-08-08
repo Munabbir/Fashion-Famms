@@ -1,0 +1,23 @@
+.ProductGrid{
+    width: 100%;
+    height: 150px;
+    color: white;
+    background-color: rgb(247, 83, 83);
+}
+.text-center h2::after{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 5px;
+    background-color: rgb(247, 83, 83);
+    margin: 10px auto 10px;
+}
+.Back-btn{
+    background-color: rgb(247, 83, 83);
+    color: white;
+}
+.Back-btn:hover{
+    border-color: rgb(247, 83, 83);
+    color: rgb(247, 83, 83);
+    background-color: rgba(240, 255, 255, 0.022);
+}
