@@ -51,11 +51,24 @@
 }
 .card{
     border: 2px solid white;
+    position: relative;
+    overflow: hidden;
 }
-.card:hover{
+.taitelss{
+    background-color: rgba(3, 14, 10, 0.377);
+    position: absolute;
+    top: -100%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 3s;
+}
+.card:hover .taitelss{
     border: 2px solid rgb(247, 83, 83);
     transition: 1s;
     box-shadow: brown;
+    top: 0;
 }
 .View-btn{
     background-color: rgb(247, 83, 83);
