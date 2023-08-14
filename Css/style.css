@@ -95,3 +95,7 @@
     border: none;
     outline: none;
 }
+::selection{
+    background-color: yellowgreen;
+    color: red;
+}
